@@ -1,2 +1,29 @@
 .venv
 .env
+# Python
+*.pyc
+__pycache__/
+*.log
+*.pot
+*.sage
+*.mo
+*.egg-info/
+.coverage
+.tox/
+.eggs/
+
+# Virtual Environment
+.env
+venv/
+env/
+
+# Django-specific
+db.sqlite3
+local_settings.py
+mediafiles/
+staticfiles/
+
+# IDE-specific
+.idea/
+.vscode/
+*.swp
