@@ -1,0 +1,99 @@
+
+        /* CSS Integrado (Coloque este bloco <style> no seu template Django) */
+        
+        body {
+            margin: 0;
+            background-color: #111; /* Cor de fundo da página para visualização */
+        }
+        
+        /* Estilos Gerais */
+        .navbar, .news-banner {
+            font-family: 'Arial', sans-serif;
+            color: white;
+            /* Garante que o CSS da navbar use o mesmo box-sizing */
+            box-sizing: border-box; 
+        }
+
+        /* 1. Barra de Navegação Principal */
+        .navbar {
+            display: flex;
+            justify-content: space-between; /* Espaço entre os lados esquerdo e direito */
+            align-items: center;
+            background-color: #38003C; /* Roxo escuro principal */
+            padding: 10px 20px;
+            height: 60px;
+        }
+
+        .navbar-left, .icons-group {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .menu-icon {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .logo-placeholder {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .navbar-right {
+            display: flex;
+            flex-direction: column; /* Copilot em cima dos ícones/botão */
+            align-items: flex-end;
+        }
+
+        .copilot-text {
+            font-size: 12px;
+            color: #a0a0a0;
+            margin-bottom: 5px;
+        }
+
+        /* Ícones de Copilot e Busca */
+        .icon {
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        /* Botão "Sign in" com Borda Colorida */
+        .sign-in-button {
+            background: none;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            /* Cria o efeito de borda gradiente */
+            border: 2px solid transparent; 
+            border-image: linear-gradient(to right, #00FFC0, #A020F0) 1; /* Verde/Azul para Roxo */
+        }
+
+        /* 2. Seção de Notícia Abaixo */
+        .news-banner {
+            background-color: #21002A; /* Um roxo ligeiramente mais escuro */
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 14px;
+        }
+
+        .club-logo {
+            font-size: 20px;
+        }
+
+        /* Empurra os elementos restantes para a direita */
+        .external-link { 
+            margin-left: auto; 
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .club-logo-right {
+            font-size: 20px;
+        }
+        

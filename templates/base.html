@@ -1,0 +1,52 @@
+{% load static %}
+
+
+
+
+<!DOCTYPE html>
+
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Navegação Premier League</title>
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+     
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <span class="menu-icon">☰</span>
+                <span class="logo-placeholder">Premier League</span> 
+            </div>
+
+            <div class="navbar-right">
+                <span class="copilot-text">Copilot by Microsoft</span>
+                <div class="icons-group">
+                    <span class="icon">✨</span>
+                    <span class="icon">🔍</span>
+                    <button class="sign-in-button">Sign in</button>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="news-banner">
+            <span class="club-logo">⚽</span>
+            <span>Cherries to assess Milosavljevic before Chelsea match</span>
+            <span class="external-link">↗</span>
+            <span class="club-logo-right">🦁</span>
+        </div>
+
+            {% block content %}{% endblock  %}
+            
+
+
+
+
+
+
+    </header>
+    </body>
+</html>
