@@ -1,7 +1,17 @@
- {% extends "base.html" %} 
+ {% extends "base.html" %}
+ {% load static %}
+   
+{% block extracss %}
+{% endblock %} 
 
 
+{% url "home_page" %}
 
 
-
- {% block content %}<h1>Rick Morthy</h1>{% endblock  %}
+ {% block content %}
+ 
+ 
+ <h1>Rick Morthy <a href="/home/home/pepino/cebola">clique me</a></h1>
+ 
+ 
+ {% endblock  %}

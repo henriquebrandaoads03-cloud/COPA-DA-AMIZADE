@@ -2,7 +2,6 @@
 
 
 
-
 <!DOCTYPE html>
 
 
@@ -12,7 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barra de Navegação Premier League</title>
     <link rel="stylesheet" href="{% static 'base.css' %}">
-     
+
+    {% block extracss %} {% endblock %}
 </head>
 <body>
     <header>
@@ -39,7 +39,14 @@
             <span class="club-logo-right">🦁</span>
         </div>
 
-            {% block content %}{% endblock  %}
+            {% block content %}
+            
+            
+            
+            
+            
+            
+            {% endblock  %}
             
 
 
@@ -48,5 +55,13 @@
 
 
     </header>
+
+
+    <footer>
+
+
+
+        fotterrr
+    </footer>
     </body>
 </html>
