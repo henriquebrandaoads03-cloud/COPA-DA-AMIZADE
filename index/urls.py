@@ -6,7 +6,7 @@ from index import views
 
 urlpatterns = [
 
-    path("home/pepino/cebola", views.home_page , name= "home_page"),
+    path("home", views.home_page , name= "home_page"),
     
 
 ]

@@ -11,6 +11,7 @@ __pycache__/
 .coverage
 .tox/
 .eggs/
+venv
 
 # Virtual Environment
 .env
